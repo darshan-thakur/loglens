@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "loglens"
+version = "0.1.0"
+description = "FastAPI for Log File Data Access and Analysis"
+authors = ["Darshan Thakur <darshansthakur2@gmail.com>"]
+readme = "Readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.6"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.3"
+sqlalchemy = "^2.0.41"
+psycopg2 = "^2.9.10"
+python-dotenv = "1.1.0"
+
+[poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
